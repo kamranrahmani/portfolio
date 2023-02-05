@@ -13,7 +13,7 @@
       rel="stylesheet"
     />
   </head>
-  <body class="bg-black/90 text-white">
+  <body class="bg-black/90 text-white overflow-x-hidden">
     <section class="p-4 max-w-5xl mx-auto" id="hero-nav">
         <nav class="flex flex-col justify-center items-center space-y-2 md:flex-row md:justify-between">
             <h1 class="text-xl font-bold">Kamran Rahmani</h1>
@@ -28,10 +28,10 @@
             <!-- rings -->
             <img src="./assets/pattern-rings.svg" alt="" class="absolute right-80 top-16 md:right-[80%] lg:right-[90%]">
             <!-- circle -->
-            <img src="./assets/pattern-circle.svg" alt="" class="absolute left-[90%] top-72 z-40 lg:left-[65%]">
+            <img src="./assets/pattern-circle.svg" alt="" class="absolute right-0 bottom-80 md:bottom-6 lg:left-[65%] lg:bottom-6 z-40">
             <!-- picture -->
             <div class="relative w-72 h-96">
-                <img src="./assets/photo.png" alt="" class="absolute w-72 h-96">
+                <img src="./assets/photo.png" alt="" class="absolute w-full h-full">
                 <div class="absolute w-full h-full bg-gradient-to-b from-transparent to-gray-50/10 left-0 top-0"></div>
             </div>
             <!-- about text -->
@@ -44,29 +44,29 @@
 
     </section>
     <!-- skills -->
-    <section class="relative">
+    <section class="p-4 max-w-5xl mx-auto">
         <h2 class="text-center text-3xl mb-8 mx-auto">Skills</h2>
-        <img src="./assets/pattern-rings.svg" alt="" class="absolute left-[60%] top-16 md:left-[80%]">
-        <!-- frontend -->
-        <div class="max-w-5xl mx-auto flex flex-col md:flex-row md:space-y-0 items-center space-y-6 mb-32">
-            <div class="p-2 rounded-lg w-1/2">
+        
+        <div class="relative container flex flex-col md:flex-row md:space-y-0 items-center space-y-6 mb-16">
+            <img src="./assets/pattern-rings.svg" alt="" class="absolute left-[50%] top-[100%] md:left-[75%] lg:left-[90%]">
+            <div class="p-2 rounded-lg flex-1">
                 <h1 class="text-2xl font-bold text-center mb-4 text-yellow-400">Frontend</h1>
                 <div class="grid gap-y-2 text-center">
                     <p>HTML</p>
                     <p>CSS</p>
                     <p>Javascript</p>
                     <p>Tailwindcss</p>
-    
                 </div>
+                
             </div>
-            <div class="p-2 rounded-lg w-1/2 md:border-l-2 md:rounded-none md:rounded-r-lg ">
+            <div class="p-2 rounded-lg md:border-l-2 md:rounded-none md:rounded-r-lg flex-1">
                 <h1 class="text-2xl font-bold text-center mb-4 text-red-600">Backend</h1>
                 <div class="grid gap-y-2 text-center">
                     <p>Node js</p>
                     <p>Express js</p>
                     <p>MySQL</p>
                     <p>Sequelizer js</p>
-                    <p>REST API development</p>
+                    <p>REST API</p>
                 </div>
             </div>
         </div>
@@ -97,6 +97,7 @@
                         <p>CSS</p>
                         <p>JS</p>
                         <p>Express JS</p>
+                        <p>EJS</p>
                         <p>MySQL</p>
                     </div>
                     <!-- links -->
