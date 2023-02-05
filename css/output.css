@@ -547,6 +547,10 @@ video {
   }
 }
 
+.fixed {
+  position: fixed;
+}
+
 .absolute {
   position: absolute;
 }
@@ -689,6 +693,10 @@ video {
 
 .left-\[50\%\] {
   left: 50%;
+}
+
+.top-\[0\%\] {
+  top: 0%;
 }
 
 .z-40 {
