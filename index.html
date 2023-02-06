@@ -20,8 +20,8 @@
       >
         <h1 class="text-xl font-bold">Kamran Rahmani</h1>
         <div id="socials" class="flex space-x-4 items-center">
-          <a href=""><img src="./assets/icon-github.svg" alt="github" /></a>
-          <a href=""><img src="./assets/icon-linkedin.svg" alt="github" /></a>
+          <a href="https://github.com/kamranrahmani"><img src="./assets/icon-github.svg" alt="github" /></a>
+          <!-- <a href=""><img src="./assets/icon-linkedin.svg" alt="github" /></a> -->
         </div>
       </nav>
       <!-- hero -->
@@ -279,6 +279,12 @@
           </div>
           <!-- contact form -->
           <form action="https://formsubmit.co/rahmanikamran95@gmail.com" method="POST" class="flex flex-col space-y-6 pb-20">
+            <!-- honeypot -->
+            <input type="text" name="_honey" class="hidden">
+
+            <!-- disable captcha -->
+            <input type="hidden" name="_captcha" value="false">
+
             <input
               type="text"
               name="name"
@@ -319,7 +325,7 @@
           <!-- social links -->
           <div class="flex space-x-4 items-center">
             <a href=""><img src="./assets/icon-github.svg" alt="" /></a>
-            <a href=""><img src="./assets/icon-linkedin.svg" alt="" /></a>
+            <!-- <a href=""><img src="./assets/icon-linkedin.svg" alt="" /></a> -->
           </div>
         </div>
       </div>
